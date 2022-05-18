@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="script.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section class="container">
+      <nav>
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <ul class="list__container">
+          <li class="list__item"><a class="list__links" href="#">HOME</a></li>
+          <li class="list__item"><a class="list__links" href="#">ABOUT</a></li>
+          <li class="list__item">
+            <a class="list__links" href="#">PORTFOLIO</a>
+          </li>
+          <li class="list__item">
+            <a class="list__links" href="#">SERVICES</a>
+          </li>
+          <li class="list__item">
+            <a class="list__links" href="#">HIRE ME</a>
+          </li>
+        </ul>
+        <img
+          src="img/moon.png"
+          alt="darkmode-icon"
+          class="dark-btn"
+          id="theme-setting"
+        />
+      </nav>
+
+      <div class="main">
+        <div class="main__content--info">
+          <h1 class="main__content--title">
+            I'm <span class="highlight">Kate</span> Amelia
+          </h1>
+          <p class="main__content--describtion">
+            This is my official portfolio website to showcase my all works
+            related to web <br />
+            development and UI design.
+          </p>
+          <a href="#" class="main__content--downloadlink">Download CV</a>
+          <div class="social__links">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+          </div>
+        </div>
+        <div class="image__content--container">
+          <img src="img/pattern.png" alt="pattern" class="bg__image" />
+          <img src="img/girl.png" alt="girl" class="main__image" />
+        </div>
+      </div>
+    </section>
+    <div class="dark__layer--animation"></div>
+  </body>
+</html>
